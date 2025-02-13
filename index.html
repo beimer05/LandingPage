@@ -52,7 +52,11 @@ aria-label="Toggle navigation">
             </h1>
             <p class="lead my-4 text-muted">Lorem, ipsum dolor sit amet consectetur 
                 adipisicing elit. Eum provident hic quaerat?</p>
-            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>    
+            <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>   
+            <!--open sidebar /offcanvas-->
+            <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">
+                Explore my others books
+            </a> 
         </div>
         <div class="col-md-5 text-center">
             <!--tooltip-->
@@ -479,7 +483,20 @@ aria-label="Toggle navigation">
         </div>
     </div>
 </div>
-
+<!--OffCanvas-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+<div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="sidebar-label">My others books</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>       
+</div>
+<div class="offcanvas-body">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+       Nihil pariatur consequuntur velit blanditiis voluptatem 
+       tempore sint, magni labore maiores quis dolores sed dolorem
+        error, qui iure perspiciatis laboriosam, ipsum mollitia. 
+        ignissimos, saepe!</p>
+</div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
